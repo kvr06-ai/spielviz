@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "spielviz"
-version = "0.1.0"
+version = "0.1.1"
 description = "Python visualization library for OpenSpiel game trees, information sets, and strategy profiles"
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.9"
 authors = [
-    { name = "Karan Varma" }
+    { name = "Kaushik Rajan" }
 ]
 keywords = [
     "game-theory", "openspiel", "visualization", "game-tree",

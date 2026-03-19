@@ -5,7 +5,7 @@ from spielviz.render import render_tree, save_tree
 from spielviz.infosets import auto_color_info_sets, draw_info_set_connections
 from spielviz.strategy import plot_strategy_profile, plot_strategy_on_tree
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = [
     "build_tree",
