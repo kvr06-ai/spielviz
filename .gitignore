@@ -6,5 +6,5 @@ build/
 .venv/
 .coverage
 .pytest_cache/
-*.png
-*.svg
+!images/
+.ruff_cache/
