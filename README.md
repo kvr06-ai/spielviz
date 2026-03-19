@@ -110,6 +110,20 @@ spielviz.quick_render("tic_tac_toe", max_depth=3, path="ttt.png")
 | `plot_strategy_on_tree(root, game, policy, player=0)` | Mini bar charts overlaid on tree |
 | `quick_render(game_name, **kwargs)` | One-liner convenience function |
 
+## Roadmap
+
+This is an MVP (v0.1). If the community finds it useful, planned additions include:
+
+- **Normal-form game rendering** — payoff matrix visualization with Nash equilibrium highlighting
+- **Buchheim tree layout** — compact, aesthetically balanced layout for larger games
+- **Subtree pruning & aggregation** — handle games with large state spaces
+- **Learning dynamics plots** — exploitability curves, strategy evolution over iterations
+- **Interactive HTML export** — hover, expand/collapse, zoom
+- **Strategy comparison** — side-by-side multi-policy visualization
+- **Learning animation** — animated strategy evolution during training
+
+Feedback and feature requests welcome — please [open an issue](https://github.com/kvr06-ai/spielviz/issues).
+
 ## Tested Games
 
 - `kuhn_poker` — 2-player Kuhn Poker
